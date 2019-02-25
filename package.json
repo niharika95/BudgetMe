@@ -1,0 +1,34 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "expo": "^31.0.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-contacts": "^3.1.2",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-responsive-dimensions": "^2.0.1",
+    "react-native-swipe-list-view": "^1.5.1",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-typography": "^1.4.0",
+    "react-native-uuid": "^1.4.9",
+    "react-native-uuid-generator": "^5.0.0",
+    "react-navigation": "^3.0.9"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "private": true
+}
