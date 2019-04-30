@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, SafeAreaView } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import { Font } from 'expo';
 import HomeScreen from './HomeScreen';
 import SpentMoneyScreen from './SpentMoneyScreen';
 import HistoryScreen from './HistoryScreen';

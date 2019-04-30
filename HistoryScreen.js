@@ -127,7 +127,6 @@ export default class HistoryScreen extends React.Component{
                                 size = {25}
                                 onPress = {() => this.props.navigation.navigate('Home')}
                               /> */}
-                              <Text></Text>
                               <Icon
                                 name='delete'
                                 type='AntDesign'
